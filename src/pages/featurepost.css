@@ -1,0 +1,40 @@
+.schol{
+    position: relative;
+}
+
+.sch{
+    width: 440px;
+    height: 450px;
+    border: 20px solid #219D8033;
+}
+
+.toge{
+    border: 20px solid #219D8033;
+    height: 322px;
+    width: 363px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background-color: #fff;
+}
+
+.togetherness{
+    list-style-type: disc;
+}
+
+
+.mission{
+    background-color: #219D8033;
+}
+
+@media only screen and (min-width: 1200px) {
+    .loads{
+        background-color: #C7E7DF;
+        width: 521px;
+    }
+    .sch{
+        width: 440px;
+        height: 450px;
+        border: 20px solid #219D8033;
+    }
+}
