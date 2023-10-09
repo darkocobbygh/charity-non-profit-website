@@ -6,8 +6,8 @@ import vec from '../assets/vec.png';
 import vectt from '../assets/vectt.png';
 const FeaturePost = () => {
   return (
-    <div className='lg:flex lg:pb-10 lg:mb-20 pl-4 pr-4'>
-      <div className='welcome-to-charity lg:pl-10 h-full pb-6'>
+    <div className='lg:flex lg:pb-10 lg:mb-20 pl-4 h-full pr-4'>
+      <div className='welcome-to-charity lg:pl-10 pb-2'>
         <h5 className='lg:text-2xl text-2xl lg:text-left text-center font-semibold'>Welcome to Charity</h5>
         <h2 className='text-4xl lg:font-bold lg:text-left text-center'>Let Us Come Together <br /> To Make a Difference</h2>
         <p className='text-base font-normal pt-4'>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam <br /> nonumy tempor invidunt ut labore et dolore magna aliquyam <br /> erat, sed diam voluptua. At vero eos et accusam et justo.</p>
@@ -29,7 +29,7 @@ const FeaturePost = () => {
        </div>
         <div className='flex justify-between'>
         <h5>Donations</h5>
-        <p className='lg:pr-10 pr-16'>75%</p>
+        <p className='lg:pr-10 pr-2'>75%</p>
         </div>
        <div className='loads'>
        <img src={loadi} alt="" />

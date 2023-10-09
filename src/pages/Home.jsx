@@ -3,7 +3,7 @@ import './home.css'
 const Home = () => {
   return (
     <div>
-      <div className='container h-screen flex flex-col justify-center items-center w-screen lg:h-screen lg:flex lg:justify-center lg:items-center lg:text-white lg:text-center lg:flex-col lg:w-full lg:h-screen
+      <div className='container h-full pb-2 text-center flex flex-col justify-center items-center w-screen lg:h-screen lg:flex lg:justify-center lg:items-center lg:text-white lg:text-center lg:flex-col lg:w-full lg:h-screen
 '>
         <p className='lg:text-2xl lg:font-semibold text-white text-3xl'>Give Hope For Homeless</p>
         <h1 className='lg:text-7xl text-white text-7xl text-center'>Helping Each Other <br /> Can Make World Better</h1>
